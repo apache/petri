@@ -7,7 +7,7 @@ import sys
 import os
 
 
-AUTHOR = u'PetriCommunity'
+AUTHOR = u'Petri Community'
 SITENAME = u'Apache Petri'
 SITEURL = ''
 CURRENTYEAR = date.today().year
