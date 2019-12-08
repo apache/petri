@@ -1,2 +1,4 @@
 publish:
   whoami: asf-site
+  theme: theme/apache
+  
