@@ -5,12 +5,12 @@ Title: Apache Petri - FAQ
 
 ## What is Apache Petri?
 
-The Apache Petri (as in "petri dish" –where cultures are grown and bloom) committee
+The Apache Petri (as in “petri dish” –where cultures are grown and bloom) committee
 assists external project communities interested in becoming an Apache project to
 learn how The Apache Software Foundation (ASF) works, its views on community, and
 how to build a healthy community for the long -term.
 
-Petri’s mission is to mentor existing external communities ("cultures") about
+Petri’s mission is to mentor existing external communities (“cultures”) about
 “The Apache Way” by focusing on community governance that includes discussions
 about ASF policies. The mentoring and education is conducted on a mailing list.
 
@@ -19,7 +19,7 @@ be made to construct a new Apache Project Management Committee (PMC) for the
 external community. 
 
 In the Incubator model, projects graduate to become Apache Top-Level Projects (TLPs).
-Under Petri, projects can become TLPs under a process described as "direct to TLP",
+Under Petri, projects can become TLPs under a process described as “direct to TLP”,
 which is an alternative path to that used by the Apache Incubator. Apache Petri aims
 to shepherd projects and their communities to a point of confidence that the
 ASF Board will welcome the community to the Apache family of projects as a
@@ -83,7 +83,7 @@ The Board makes the ultimate decision, and generally ensures that the project ha
 If you are:
 
 * An established, diverse community that already releases quickly; or
-* A project with a single ”leader” that seeks to grow to a community-driven
+* A project with a single “leader” that seeks to grow to a community-driven
   development model; or
 * A company that has an Open Source project with other vendors and wants to
   expand and diversify its community...
