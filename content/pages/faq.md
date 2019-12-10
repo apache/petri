@@ -199,7 +199,8 @@ does for every PMC.
 
 ## How can our project/community apply for Apache Petri mentorship?
 
-Email discuss@petri.apache.org (public list; subscription not required)
+Email discuss@petri.apache.org (public list; if you're not subscribe,
+ask explicitly to be Cc'd on replies)
 or private@petri.apache.org (private list, only Apache Petri PMC members
 and Apache Members can subscribe) and introduce yourself! We don’t
 have any forms or questionnaires, but may introduce these should
