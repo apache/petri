@@ -26,7 +26,7 @@
     <license rdf:resource="http://spdx.org/licenses/Apache-2.0" />
     <name>Apache Petri</name>
     <homepage rdf:resource="http://petri.apache.org" />
-    <asfext:pmc rdf:resource="http://steve.apache.org" />
+    <asfext:pmc rdf:resource="http://petri.apache.org" />
     <shortdesc>Apache Petri deals with the assessment of, education in, and adoption of the Foundation's policies and procedures for collaborative development and the pros and cons of joining the Foundation.</shortdesc>
     <description>Apache Petri deals with the assessment of, education in, and adoption of the Foundation's policies and procedures for collaborative development and the pros and cons of joining the Foundation.</description>
     <mailing-list rdf:resource="https://lists.apache.org/list.html?discuss@petri.apache.org" />
