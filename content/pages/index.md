@@ -39,4 +39,4 @@ questionnaires, but may introduce these should the need arise..
 
 ### Do you have additional questions?
 
-Please read our FAQ (/faq) or ask questions on discuss@petri.apache.org
+Please read our [FAQ](/faq) or ask questions on discuss@petri.apache.org
