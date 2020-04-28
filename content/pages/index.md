@@ -1,5 +1,7 @@
-Title: Apache Petri
+Title: <!-- suppressed, logo covers it -->
 <!-- Licensed under ALv2 -->
+
+![Apache Petri Logo](images/logo.svg)
 
 ### What is Apache Petri?
 
