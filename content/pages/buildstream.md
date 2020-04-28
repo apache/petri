@@ -1,7 +1,5 @@
-title: Buildstream @ Apache Petri
+title: BuildStream @ Apache Petri
 <!-- Licensed under ALv2 -->
-
-# BuildStream
 
 ## About the project
 BuildStream is an integration build system.
