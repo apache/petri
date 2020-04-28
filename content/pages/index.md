@@ -18,9 +18,9 @@ The primary goal is to reach a point where a recommendation to the ASF Board can
 be made to construct a new Apache Project Management Committee (PMC) for the
 external community. 
 
-### What communities is Petri currently mentoring?
+### Which communities are Petri currently mentoring?
 
-1. BuildStream. (add information)
+- [BuildStream](/buildstream)
 
 ### What is the current roster of Petri mentors?
 
