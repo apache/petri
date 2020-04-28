@@ -19,7 +19,7 @@ be made to construct a new Apache Project Management Committee (PMC) for the
 external community. 
 
 
-### Which communities are Petri currently mentoring?
+### Which communities are currently mentored by Apache Petri?
 
 - [BuildStream](/buildstream)
 
