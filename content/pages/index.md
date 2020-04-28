@@ -18,20 +18,11 @@ The primary goal is to reach a point where a recommendation to the ASF Board can
 be made to construct a new Apache Project Management Committee (PMC) for the
 external community. 
 
+
 ### Which communities are Petri currently mentoring?
 
 - [BuildStream](/buildstream)
 
-### What is the current roster of Petri mentors?
-
-- Daniel Gruno (humbedooh)
-- Daniel Shahaf (danielsh)
-- Dave Fisher (wave)
-- David Nalley (ke4qqq)
-- Greg Stein (gstein)
-- Justin Erenkrantz (jerenkrantz)
-- Ross Gardler (rgardler)
-- Sander Striker (striker)
 
 ### How can our project/community apply for Apache Petri mentorship?
 
