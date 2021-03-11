@@ -10,6 +10,33 @@ The BuildStream implementation uses Remote Execution concepts directly, even for
 BuildStream supports multiple build-systems (e.g. autotools, cmake, cpan, distutils, make, meson, qmake, pip) 
 through its plugins.
 
+## Website
+https://www.buildstream.build
+
+## Mailing Lists
+- dev@buildstream.apache.org
+- private@buildstream.apache.org
+- commits@buildstream.apache.org
+
+## Source Repository
+https://github.com/apache/buildstream
+
+## Issue Tracker
+https://github.com/apache/buildstream/issues
+
+## Wiki
+None
+
+## Releases
+https://buildstream.build/install.html
+
+## Licensing Transition
+- SGA provided
+- ICLAs provided
+- No ASF Headers
+- No Apache LICENSE
+- No Apache NOTICE
+
 ## Mentors
 * David Nalley
 * Justin Erenkrantz
