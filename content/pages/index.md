@@ -22,11 +22,16 @@ The primary goal is to reach a point where a recommendation to the ASF Board can
 be made to construct a new Apache Project Management Committee (PMC) for the
 external community. 
 
+### About "The Apache Way"
+- [The Apache Way]((https://www.apache.org/theapacheway/index.html)
+- [Sustainable Open Source](https://s.apache.org/GhnI)
+- [How it Works](https://www.apache.org/foundation/how-it-works.html)
+- [Merit](https://www.apache.org/foundation/how-it-works.html#meritocracy)
+- [Success at Apache](https://blogs.apache.org/foundation/category/SuccessAtApache)
 
 ### Which communities are currently mentored by Apache Petri?
 
 - [BuildStream](/buildstream)
-
 
 ### How can our project/community apply for Apache Petri mentorship?
 
