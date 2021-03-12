@@ -1,3 +1,13 @@
+github:
+  features:
+    # Enable issue management
+    issues: true
+
+notifications:
+  commits:      commits@petri.apache.org
+  issues:       discuss@petri.apache.org
+  pullrequests: discuss@petri.apache.org
+
 pelican:
   notify:         commits@petri.apache.org
   autobuild:      true
