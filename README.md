@@ -14,13 +14,13 @@ ASF CI/CD is via a [.asf.yaml file](https://cwiki.apache.org/confluence/display/
 - [Website Issues](https://github.com/apache/petri-site/issues)
 
 Javascript frameworks available are:
-- [JQuery](https://code.jquery.com/jquery-3.3.1.slim.min.js)
-- [Popper](https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js)
-- [Bootstrap](https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js)
+- [JQuery 3.3.1 Slim](https://code.jquery.com/jquery-3.3.1.slim.js)
+- [Popper 1.14.7](https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.js)
+- [Bootstrap 4.3.1](https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.js)
 
 CSS frameworks available are:
-- [Bootstrap](https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css)
-- [Github Markdown](https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/3.0.1/github-markdown.min.css)
+- [Bootstrap 4.3.1](https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.css)
+- [Github Markdown 3.0.1](https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/3.0.1/github-markdown.css)
 
 ### Petri Culture Status
 - [Pages](content/pages)
