@@ -41,3 +41,6 @@ https://buildstream.build/install.html
 * David Nalley
 * Justin Erenkrantz
 * Sander Striker
+
+### Machine Readable Status
+[petri.yaml](https://github.com/apache/petri/blob/master/info.yaml)
