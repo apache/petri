@@ -23,7 +23,7 @@ be made to construct a new Apache Project Management Committee (PMC) for the
 external community. 
 
 ### About "The Apache Way"
-- [The Apache Way]((https://www.apache.org/theapacheway/index.html)
+- [The Apache Way](https://www.apache.org/theapacheway/index.html)
 - [Sustainable Open Source](https://s.apache.org/GhnI)
 - [How it Works](https://www.apache.org/foundation/how-it-works.html)
 - [Merit](https://www.apache.org/foundation/how-it-works.html#meritocracy)
