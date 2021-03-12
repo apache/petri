@@ -18,7 +18,7 @@ Javascript frameworks available are:
 - [Popper](https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js)
 - [Bootstrap](https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js)
 
-CSS framerwoks available are:
+CSS frameworks available are:
 - [Bootstrap](https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css)
 - [Github Markdown](https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/3.0.1/github-markdown.min.css)
 
