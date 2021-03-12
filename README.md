@@ -11,7 +11,7 @@ ASF CI/CD is via a [.asf.yaml file](https://cwiki.apache.org/confluence/display/
 - [Pages](content/pages)
 - [Pelican Configuration](pelicanconf.py)
 - [ASF YAML build](.asf.yaml)
-- [Website Issues](issues)
+- [Website Issues](https://github.com/apache/petri-site/issues)
 
 Javascript frameworks available are:
 - [JQuery](https://code.jquery.com/jquery-3.3.1.slim.min.js)
