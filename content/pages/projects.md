@@ -4,7 +4,7 @@ title: Projects mentored by Apache Petri
 This page provide a listing of Apache Petri Cultures. For a machine readable status please see 
 [petri.yaml](https://github.com/apache/petri/blob/master/info.yaml)
 
-## [Cookbook](Cookbook)
+## [Cookbook](/cookbook)
 
 ## Current Cultures
 
