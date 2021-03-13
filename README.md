@@ -24,7 +24,7 @@ CSS frameworks available are:
 
 ### Petri Culture Status
 - [Pages](content/pages)
-- [info.yaml](https://github.com/apache/petri/info.yaml)
+- [info.yaml](content/info.yaml)
 
 ### Apache Petri
 The Petri project has its own [repository and issue tracker](https://github.com/apache/petri).
