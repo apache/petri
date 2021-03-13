@@ -44,8 +44,6 @@ questionnaires, but may introduce these should the need arise..
 Please read our [FAQ](/faq) or ask questions on discuss@petri.apache.org
 
 ### Petri Repositories and Issue Tracking
-- [Status](https://github.com/apache/petri)
-- [Issues](https://github.com/apache/petri/issues)
 - [Website](https://github.com/apache/petri-site)
-- [Website Issues](https://github.com/apache/petri-site/issues)
+- [Issues](https://github.com/apache/petri-site/issues)
 
