@@ -43,4 +43,4 @@ A list of your current mentors.
 
 ### Machine Readable Status
 The status information for a community should also be updated in
-[petri.yaml](https://github.com/apache/petri-site/edit/master/content/info.yaml).
+[petri.yaml](https://github.com/apache/petri-site/blob/master/content/info.yaml).
