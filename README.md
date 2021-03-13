@@ -1,14 +1,16 @@
 # Apache Petri
 [Apache Petri](https://petri.apache.org/)
 
-This repository provides the source code for the Apache Petri website.
-The website is built with [Pelican](https://blog.getpelican.com).
-ASF CI/CD is via a [.asf.yaml file](https://cwiki.apache.org/confluence/display/INFRA/Git+-+.asf.yaml+features).
+This repository provides the website and source code for Apache Petri.
 
 - [info.yaml](content/info.yaml) - Machine Readable Culture Status
-- [Pages](content/pages)
+- [Pages](content/pages) - website pages in GitHub Markdown
 - [Issues](https://github.com/apache/petri-site/issues)
-- [Templates](theme/apache/templates)
+
+The website is built with [Pelican](https://blog.getpelican.com).
+CI/CD is via a [.asf.yaml file](https://cwiki.apache.org/confluence/display/INFRA/Git+-+.asf.yaml+features).
+
+- [Template](theme/apache/templates)
 - [CSS](theme/apache/status/css)
 - [Images](content/images)
 - [Pelican Configuration](pelicanconf.py)
