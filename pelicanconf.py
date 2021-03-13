@@ -46,6 +46,9 @@ PAGES_PATHS = [ 'content' ]
 SLUGIFY_SOURCE = 'basename'
 PAGE_SAVE_AS = '{slug}.html'
 
+# We want to serve info.yaml in addition to any images
+STATIC_PATHS = [ 'info.yaml', 'images' ]
+
 # We don't use articles, but we don't want pelican to think
 # that content/ contains articles.
 ARTICLE_PATHS = [ 'articles' ]
