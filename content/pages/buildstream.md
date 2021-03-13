@@ -43,4 +43,4 @@ https://buildstream.build/install.html
 * Sander Striker
 
 ### Machine Readable Status
-[petri.yaml](https://github.com/apache/petri-site/edit/master/content/info.yaml)
+[petri.yaml](https://github.com/apache/petri-site/blob/master/content/info.yaml)
