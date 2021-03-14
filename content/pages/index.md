@@ -47,5 +47,6 @@ Please read our [FAQ](/faq) or ask questions on discuss@petri.apache.org
 - [Website](https://github.com/apache/petri-site)
 - [Issues](https://github.com/apache/petri-site/issues)
 
-### Machine Readable Status File
+### Petri Status Files
 - [info.yaml](https://petri.apache.org/info.yaml)
+- [petri.rdf](https://projects.apache.org/project.html?petri)
