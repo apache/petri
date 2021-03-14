@@ -27,7 +27,7 @@ cultures:
    - ke4qqq
   name: BuildStream
   description: >
-       BuildStream is a powerful and flexible software integration toolset. 
+       BuildStream is a powerful and flexible software integration toolset.
        It supports multiple build-systems and can produce multiple outputs from the same project
        (e.g. debian packages, flatpak runtimes, and system images).
   website: https://www.buildstream.build

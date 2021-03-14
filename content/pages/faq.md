@@ -16,7 +16,7 @@ about ASF policies. The mentoring and education is conducted on a mailing list.
 
 The primary goal is to reach a point where a recommendation to the ASF Board can
 be made to construct a new Apache Project Management Committee (PMC) for the
-external community. 
+external community.
 
 In the Incubator model, projects graduate to become Apache Top-Level Projects (TLPs).
 Under Petri, projects can become TLPs under a process described as “direct to TLP”,
@@ -48,11 +48,11 @@ The Apache Way is the ASF’s process of community-led development is the backbo
 of all Apache projects, and emulated by many Open Source foundations. The Apache
 Way comprises:
 
-* Earned Authority (merit); 
-* Community of Peers; 
-* Open Communications; 
-* Consensus Decision Making; and 
-* Responsible Oversight. 
+* Earned Authority (merit);
+* Community of Peers;
+* Open Communications;
+* Consensus Decision Making; and
+* Responsible Oversight.
 
 For more information, see https://www.apache.org/theapacheway/
 
@@ -119,7 +119,7 @@ applied to the Apache Board to become TLPs, and have become TLPs without
 going through either Petri or the Incubator. Historically, every project’s
 experience and time spent in the Apache Incubator varies, depending on its
 specific needs and circumstances; this has ranged from less than one year
-to more than three years. 
+to more than three years.
 
 Similarly, some projects undergoing Petri mentorship will take longer
 than others. Petri is more about education about The Apache Way of project
@@ -137,11 +137,11 @@ and direct-to-TLP applicants.
 There is more than one way to do so: not all incoming projects will be
 mentored by Petri. Traditionally, the Apache Incubator has been the entry
 path for external projects, codebases, and communities wishing to become
-a part of the ASF. 
+a part of the ASF.
 
 Petri's primary goal is preparing a community for Direct-to-TLP; moving
 from Petri to become a podling undergoing development in the Apache Incubator
-is a possibility, but not mandated. 
+is a possibility, but not mandated.
 
 ## If I propose my project to be mentored by Petri, will it be accepted?
 
@@ -156,7 +156,7 @@ time, though it has never yet done that to date.
 We anticipate 2-3 communities in the first year, with one per year likely following that.
 
 ## What should the Board expect from a Project that Petri Recommends to become a TLP?
- 
+
 This list is only complete in that we are considering what the Board
 currently seems to require and it is as always up to the Board the
 requirements for any particular TLP. In addition to the list of
