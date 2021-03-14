@@ -1,7 +1,7 @@
 title: Projects mentored by Apache Petri
 <!-- Licensed under ALv2 -->
 
-This page provide a listing of Apache Petri Cultures. For a machine readable status please see 
+This page provides a listing of Apache Petri Cultures. For a machine readable status please see 
 [petri.yaml](https://github.com/apache/petri/blob/master/info.yaml)
 
 ## [Cookbook](/cookbook)

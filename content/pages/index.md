@@ -37,7 +37,7 @@ external community.
 
 Email discuss@petri.apache.org (public list; subscription not required) or private@petri.apache.org (private list, 
 only Apache Petri PMC members and Apache Members can subscribe) and introduce yourself! We don’t have any forms or 
-questionnaires, but may introduce these should the need arise..
+questionnaires, but may introduce these should the need arise.
 
 ### Do you have additional questions?
 
