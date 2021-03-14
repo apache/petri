@@ -4,7 +4,7 @@
 This repository provides the website and source code for Apache Petri.
 
 - [info.yaml](content/info.yaml) - Machine Readable Culture Status
-- [petri.rdf](content/petri.rdf) - Machine Readable Project DOAP for https://projects.apache.org/project.html?petri
+- [petri.rdf](content/petri.rdf) - Machine Readable [Project DOAP](https://projects.apache.org/project.html?petri)
 - [Pages](content/pages) - website pages in GitHub Markdown
 - [Issues](https://github.com/apache/petri-site/issues)
 
