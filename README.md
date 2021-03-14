@@ -16,11 +16,11 @@ CI/CD is via a [.asf.yaml file](https://cwiki.apache.org/confluence/display/INFR
 - [Pelican Configuration](pelicanconf.py)
 - [ASF YAML build](.asf.yaml)
 
-Javascript frameworks available are:
+JavaScript frameworks available are:
 - [JQuery 3.3.1 Slim](https://code.jquery.com/jquery-3.3.1.slim.js)
 - [Popper 1.14.7](https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.js)
 - [Bootstrap 4.3.1](https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.js)
 
 CSS frameworks available are:
 - [Bootstrap 4.3.1](https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.css)
-- [Github Markdown 3.0.1](https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/3.0.1/github-markdown.css)
+- [GitHub Markdown 3.0.1](https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/3.0.1/github-markdown.css)
