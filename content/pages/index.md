@@ -3,7 +3,7 @@ Title: <!-- suppressed, logo covers it -->
 
 <div class="float-right">
 
-![Apache Petri Logo](images/logo.svg)
+![Apache Petri Logo](../images/logo.svg)
 
 </div>
 
