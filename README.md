@@ -3,19 +3,19 @@
 
 This repository provides the website and source code for Apache Petri.
 
-- [info.yaml](content/info.yaml) - Machine Readable Culture Status
-- [petri.rdf](content/petri.rdf) - Machine Readable [Project DOAP](https://projects.apache.org/project.html?petri)
-- [Pages](content/pages) - website pages in GitHub Markdown
-- [Issues](https://github.com/apache/petri-site/issues)
+- [info.yaml](content/info.yaml) -- Machine Readable Culture Status
+- [petri.rdf](content/petri.rdf) -- Machine Readable [Project DOAP](https://projects.apache.org/project.html?petri)
+- [Pages](content/pages) -- website pages in GitHub Markdown
+- [Issues](https://github.com/apache/petri-site/issues) -- tracker
 
 The website is built with [Pelican](https://blog.getpelican.com).
 CI/CD is via a [.asf.yaml file](https://cwiki.apache.org/confluence/display/INFRA/Git+-+.asf.yaml+features).
 
-- [Template](theme/apache/templates)
-- [CSS](theme/apache/static/css)
-- [Images](content/images)
-- [Pelican Configuration](pelicanconf.py)
-- [ASF YAML build](.asf.yaml)
+- [Template](theme/apache/templates) -- simple html template
+- [CSS](theme/apache/static/css) -- simple addtional framework
+- [Images](content/images) -- logo and other images
+- [Pelican Configuration](pelicanconf.py) -- pelican configuration
+- [ASF YAML build](.asf.yaml) -- ASF infrastructure instructions
 
 JavaScript frameworks available are:
 - [JQuery 3.3.1 Slim](https://code.jquery.com/jquery-3.3.1.slim.js)
