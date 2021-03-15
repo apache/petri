@@ -12,7 +12,7 @@ The website is built with [Pelican](https://blog.getpelican.com).
 CI/CD is via a [.asf.yaml file](https://cwiki.apache.org/confluence/display/INFRA/Git+-+.asf.yaml+features).
 
 - [Template](theme/apache/templates)
-- [CSS](theme/apache/status/css)
+- [CSS](theme/apache/static/css)
 - [Images](content/images)
 - [Pelican Configuration](pelicanconf.py)
 - [ASF YAML build](.asf.yaml)
