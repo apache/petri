@@ -1,13 +1,14 @@
 title: Projects mentored by Apache Petri
 <!-- Licensed under ALv2 -->
 
-This page provides a listing of Apache Petri Cultures. For a machine readable status please see
-[petri.yaml](https://github.com/apache/petri/blob/master/info.yaml)
+## Project Status
 
-## [Cookbook](cookbook.md)
+### Machine readable status [petri.yaml](https://petri.apache.org/info.yaml) -- [edit](https://github.com/apache/petri-site/blob/master/content/info.yaml)
+
+### [Cookbook](cookbook) -- [edit](https://github.com/apache/petri-site/blob/master/content/pages/cookbook.md)
 
 ## Current Cultures
 
-### [BuildStream](buildstream.md)
+### [BuildStream](buildstream) -- [edit](https://github.com/apache/petri-site/blob/master/content/pages/buildstream.md)
 BuildStream is an integration build system. It models dependencies at a project level,
 enabling projects to use their own underlying build system
