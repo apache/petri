@@ -65,7 +65,8 @@ The Board makes the ultimate decision, and generally ensures that the project ha
   in the
   [community](http://incubator.apache.org/guides/community.html);
 * Demonstrated understanding of the
-  [Apache Release Policy](http://www.apache.org/legal/release-policy.html);
+  [Apache Release Policy](http://www.apache.org/legal/release-policy.html)
+  including [Applying the Apache License](https://infra.apache.org/apply-license.html);
 * Completed
   [Contributor Licence Agreements and Software Grant Agreements](https://www.apache.org/licenses/contributor-agreements.html);
 * Performed a
@@ -166,17 +167,19 @@ items shared above, in the **What does “Direct to TLP” entail** section:
 * **Transfer of Registered Trademarks**. If there are any registered
   trademarks then the transfer agreement will be discussed with
   the VP, Brand in advance.
+* **Software Grant**. Petri should collect [software grants](https://www.apache.org/licenses/contributor-agreements.html#grants).
 * **Committers**. Petri can collect ICLAs in advance of going to TLP.
   Petri can make the committers from a prospective community
   Petri committers in order to create accounts.
 * **Resources**. Graduation proposals will include a **Transition Plan**
-  explaining the actions that the project intends to take once
+  explaining the actions that the project has already taken or intends to take once
   the PMC is established. This may include:
   * Creating Apache project mailing lists
   * Creating Apache issue trackers
   * Creating Apache wikis
   * Creating Apache code repositories
   * Migrating code repositories to Apache
+  * Applying the Apache License
   * Creating Apache web presence
   * Migrating web presence from Project to Apache
   * Rebranding web, code, documentation from Project to Apache Project
