@@ -2,6 +2,7 @@ title: BuildStream @ Apache Petri
 <!-- Licensed under ALv2 -->
 
 ### About
+
 BuildStream is an integration build system.
 It models dependencies at a project level, enabling projects to use their own underlying build system.
 It is a Remote Execution client, that distributes builds at the project level.
@@ -11,26 +12,33 @@ BuildStream supports multiple build-systems (e.g. autotools, cmake, cpan, distut
 through its plugins.
 
 ### Website
+
 https://www.buildstream.build
 
 ### Mailing Lists
+
 - dev@buildstream.apache.org
 - private@buildstream.apache.org
 - commits@buildstream.apache.org
 
 ### Source Code Repository
+
 https://github.com/apache/buildstream
 
 ### Issue Tracker
+
 https://github.com/apache/buildstream/issues
 
 ### Wiki
+
 None
 
 ### Releases (not Apache)
+
 https://buildstream.build/install.html
 
 ### Licensing Transitions
+
 - SGA provided
 - ICLAs provided
 - No ASF Headers
@@ -38,9 +46,15 @@ https://buildstream.build/install.html
 - No Apache NOTICE
 
 ### Mentors
+
 * David Nalley
 * Justin Erenkrantz
 * Sander Striker
 
 ### Machine Readable Status
-[petri.yaml](https://github.com/apache/petri-site/blob/master/content/info.yaml)
+
+- [petri.yaml](https://github.com/apache/petri-site/blob/master/content/info.yaml)
+
+#### Markdown Source
+
+- [view source](https://github.com/apache/petri-site/blob/master/content/pages/buildstream.md)
