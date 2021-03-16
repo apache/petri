@@ -31,7 +31,8 @@ CSS frameworks available are:
 
 Additional testing with GitHub Actions:
 
-- [lint](.github/workflows/lint.yml) -- GitHub Action Workflow
+- [Lint](.github/workflows/lint.yml) -- GitHub Action Workflow
+- [Flake8](https://flake8.pycqa.org/en/latest/) - Flake8: Your Tool For Style Guide Enforcement
 - [markdownlint](https://github.com/DavidAnson/markdownlint) -- using [markdownlint-cli](https://github.com/igorshubovych/markdownlint-cli) - Node.js style checker and lint tool for Markdown/CommonMark files
 - [misspell](https://github.com/client9/misspell) -- Golang library to correct commonly misspelled English words quickly
 - [yamllint](https://yamllint.readthedocs.io/en/stable/) -- a linter for YAML files
