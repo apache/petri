@@ -18,21 +18,4 @@ CI/CD is via a [.asf.yaml file](https://cwiki.apache.org/confluence/display/INFR
 - [Pelican Configuration](pelicanconf.py) -- pelican configuration
 - [ASF YAML build](.asf.yaml) -- ASF infrastructure instructions
 
-JavaScript frameworks available are:
-
-- [JQuery 3.3.1 Slim](https://code.jquery.com/jquery-3.3.1.slim.js)
-- [Popper 1.14.7](https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.js)
-- [Bootstrap 4.3.1](https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.js)
-
-CSS frameworks available are:
-
-- [Bootstrap 4.3.1](https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.css)
-- [GitHub Markdown 3.0.1](https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/3.0.1/github-markdown.css)
-
-Additional testing with GitHub Actions:
-
-- [Lint](.github/workflows/lint.yml) -- [GitHub Actions](https://docs.github.com/en/actions) Workflow
-- [Flake8](https://flake8.pycqa.org/en/latest/) - [Python](https://www.python.org/) based tool for style guide enforcement
-- [markdownlint](https://github.com/DavidAnson/markdownlint) -- using [markdownlint-cli](https://github.com/igorshubovych/markdownlint-cli) - [Node.js](https://nodejs.org/) style checker and lint tool for Markdown/CommonMark files
-- [misspell](https://github.com/client9/misspell) -- [Golang](https://golang.org/) library to correct commonly misspelled English words quickly
-- [yamllint](https://yamllint.readthedocs.io/en/stable/) -- a linter for [YAML](https://yaml.org/) files
+Check out [Developer Guide](DEVELOPER.md) to get started contributing.
