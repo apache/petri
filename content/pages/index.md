@@ -53,4 +53,4 @@ Please read our [FAQ](/faq) or ask questions on discuss@petri.apache.org
 
 #### Markdown Source
 
-- [view source](https://github.com/apache/petri-site/blob/master/content/pages/projects.md)
+- [view source](https://github.com/apache/petri-site/blob/master/content/pages/index.md)
