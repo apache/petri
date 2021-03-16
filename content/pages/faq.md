@@ -77,7 +77,6 @@ The Board makes the ultimate decision, and generally ensures that the project ha
   [recognize merit](http://incubator.apache.org/guides/community.html); and
 * Shown auditable decision making on the provided mailing list.
 
-
 ## Is Apache Petri right for you?
 
 If you are:
@@ -97,7 +96,6 @@ accept projects that are not supported by some form of community.
 # Process
 
 ## What about the Maturity Model? Haven’t other projects bypassed incubation by meeting these requirements?
-
 
 In March 2015 Apache Zest (now Polygene) became the first project to enter
 the ASF as a Top-Level Project &mdash; without entering the Apache Incubator. As
@@ -130,7 +128,6 @@ governance and Apache Policy, and less about process.
 No, unless the projects intend to apply for TLP status and migrate their
 source control to ASF hardware. This applies both to Incubator podlings
 and direct-to-TLP applicants.
-
 
 ## If our project wants to become an official Apache project, what is the best way to do so?
 
@@ -206,7 +203,6 @@ and Apache Members can subscribe) and introduce yourself! We don’t
 have any forms or questionnaires, but may introduce these should
 the need arise.
 
-
 ## If a project wants to move out of the Apache Incubator and into Petri, what happens?
 
 We don’t recommend leaving the Incubator, if the podling is already
@@ -219,4 +215,3 @@ perform any needed changes to make that happen.
 #### Markdown Source
 
 - [view source](https://github.com/apache/petri-site/blob/master/content/pages/faq.md)
-
