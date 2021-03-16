@@ -23,6 +23,7 @@ be made to construct a new Apache Project Management Committee (PMC) for the
 external community.
 
 ### About "The Apache Way"
+
 - [The Apache Way](https://www.apache.org/theapacheway/index.html)
 - [Sustainable Open Source](https://s.apache.org/GhnI)
 - [How it Works](https://www.apache.org/foundation/how-it-works.html)
@@ -44,10 +45,12 @@ questionnaires, but may introduce these should the need arise.
 Please read our [FAQ](/faq) or ask questions on discuss@petri.apache.org
 
 ### Petri Repositories and Issue Tracking
+
 - [Website](https://github.com/apache/petri-site)
 - [Issues](https://github.com/apache/petri-site/issues)
 
 ### Petri Status Files
+
 - [info.yaml](https://petri.apache.org/info.yaml)
 - [petri.rdf](https://projects.apache.org/project.html?petri)
 
