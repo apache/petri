@@ -40,11 +40,13 @@ Once an Apache Release has been made then the "not" can be struck.
 
 ### Licensing Transitions
 
+The community needs to undertake some license transitions if their intent is to become an Apache PMC (TLP).
+
 - "No SGA" or "SGA provided". [Software License Grant](https://www.apache.org/licenses/contributor-agreements.html#grants)
 - "No ICLAs" or "ICLAs provided". [Contributor License Agreements](https://www.apache.org/licenses/contributor-agreements.html#clas)
 - "No ASF Headers" or "ASF Headers Applied". [Applying the Apache License](https://infra.apache.org/apply-license.html)
-- "No Apache LICENSE" or "LICENSE approved". Have your mentors review.
-- "No Apache NOTICE" or "NOTICE approved". Have your mentors review.
+- "No Apache LICENSE" or "LICENSE approved". [Understanding Release Policy](http://www.apache.org/legal/release-policy.html)
+- "No Apache NOTICE" or "NOTICE approved". [Understanding Release Policy](http://www.apache.org/legal/release-policy.html)
 
 ### Mentors
 
