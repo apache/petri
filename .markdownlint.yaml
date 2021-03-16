@@ -1,8 +1,5 @@
 # https://github.com/DavidAnson/markdownlint#rules--aliases
 
-# MD001 heading-increment/header-increment - Heading levels should only increment by one level at a time
-MD001: false
-
 # MD004 ul-style - Unordered list style
 MD004: false
 
