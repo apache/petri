@@ -100,6 +100,10 @@ If you are:
   development model; or
 * A company that has an Open Source project with other vendors and wants to
   expand and diversify its community...
+  
+And you are:
+
+* Willing to license your project's works under the [Apache License, Version 2](https://www.apache.org/licenses/LICENSE-2.0.html).
 
 Petri would help the community learn how to integrate governance and
 development “The Apache Way” without interrupting the project’s velocity.
