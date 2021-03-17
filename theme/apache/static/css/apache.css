@@ -40,3 +40,7 @@
 .center-align {
   text-align: center;
 }
+
+blockquote {
+  background: bisque;
+}
