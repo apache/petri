@@ -54,7 +54,20 @@ Way comprises:
 * Consensus Decision Making; and
 * Responsible Oversight.
 
-For more information, see https://www.apache.org/theapacheway/
+For more information, see [The Apache Way](https://www.apache.org/theapacheway/).
+
+The Apache Software Foundation's mission is to provide software for the public good.
+
+Quoting from [The Apache Way to Sustainable Open Source Success](https://s.apache.org/GhnI):
+
+> To allow us to deliver on this part of the mission, it is critical that we adopt a
+> license that uses the law to protect the software curated here at the Foundation.
+> For us that license is the [Apache License, Version 2](https://www.apache.org/licenses/LICENSE-2.0.html).
+> In addition, we adopt an [inbound licensing policy](https://apache.org/legal/resolved.html)
+> that defines which licenses are allowable on software reused within Apache projects. This policy can be summarized as: 
+>
+> * The license must meet the [Open Source Definition (OSD)](https://opensource.org/osd).
+> * The license, as applied in practice, must not impose significant restrictions beyond those imposed by the Apache License 2.0.
 
 ## What does “Direct to TLP” entail?
 
