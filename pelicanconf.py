@@ -67,9 +67,27 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # TOC Generator
-PLUGIN_PATHS = ['./theme/plugins']
+# PLUGIN_PATHS = ['./theme/plugins']
 # PLUGINS = ['toc']
-TOC_HEADERS = r"h[1-6]"
+# TOC_HEADERS = r"h[1-6]"
+
+# Sitemap Generator
+PLUGIN_PATHS = ['./plugins']
+PLUGINS = ['sitemap']
+SITEMAP = {
+    "exclude": ["tag/", "category/"],
+    "format": "xml",
+    "priorities": {
+        "articles": 0.1,
+        "indexes": 0.1,
+        "pages": 0.8
+    },
+    "changefreqs": {
+        "articles": "never",
+        "indexes": "never",
+        "pages": "monthly"
+    }
+}
 
 # Unused links
 LINKS = ( )
