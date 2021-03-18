@@ -7,7 +7,7 @@ Title: <!-- suppressed, logo covers it -->
 
 </div>
 
-### What is Apache Petri?
+## What is Apache Petri?
 
 The Apache Petri (as in “petri dish” –where cultures are grown and bloom) committee
 assists external project communities interested in becoming an Apache project to
@@ -22,7 +22,7 @@ The primary goal is to reach a point where a recommendation to the ASF Board can
 be made to construct a new Apache Project Management Committee (PMC) for the
 external community.
 
-### About "The Apache Way"
+## About "The Apache Way"
 
 - [The Apache Way](https://www.apache.org/theapacheway/index.html)
 - [Sustainable Open Source](https://s.apache.org/GhnI)
@@ -30,21 +30,21 @@ external community.
 - [Merit](https://www.apache.org/foundation/how-it-works.html#meritocracy)
 - [Success at Apache](https://blogs.apache.org/foundation/category/SuccessAtApache)
 
-### Which communities are currently mentored by Apache Petri?
+## Which communities are currently mentored by Apache Petri?
 
 - [BuildStream](/buildstream)
 
-### How can our project/community apply for Apache Petri mentorship?
+## How can our project/community apply for Apache Petri mentorship?
 
 Email discuss@petri.apache.org (public list; subscription not required) or private@petri.apache.org (private list,
 only Apache Petri PMC members and Apache Members can subscribe) and introduce yourself! We don’t have any forms or
 questionnaires, but may introduce these should the need arise.
 
-### Do you have additional questions?
+## Do you have additional questions?
 
 Please read our [FAQ](/faq) or ask questions on discuss@petri.apache.org
 
-### Petri Repositories and Issue Tracking
+## Petri Repositories and Issue Tracking
 
 - [Website](https://github.com/apache/petri-site)
 - [Issues](https://github.com/apache/petri-site/issues)
