@@ -69,10 +69,10 @@ AUTHOR_FEED_RSS = None
 # TOC Generator
 # PLUGIN_PATHS = ['./theme/plugins']
 # PLUGINS = ['toc']
-# TOC_HEADERS = r"h[1-6]"
+TOC_HEADERS = r"h[1-6]"
 
 # Sitemap Generator
-PLUGIN_PATHS = ['./plugins']
+PLUGIN_PATHS = ['/.theme/plugins', './plugins']
 PLUGINS = ['sitemap']
 SITEMAP = {
     "exclude": ["tag/", "category/"],
