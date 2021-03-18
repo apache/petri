@@ -73,7 +73,7 @@ TOC_HEADERS = r"h[1-6]"
 
 # Sitemap Generator
 PLUGIN_PATHS = ['/.theme/plugins', './plugins']
-PLUGINS = ['sitemap']
+# PLUGINS = ['sitemap']
 SITEMAP = {
     "exclude": ["tag/", "category/"],
     "format": "xml",
