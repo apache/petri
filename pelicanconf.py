@@ -22,8 +22,8 @@
 from __future__ import unicode_literals
 from datetime import date
 
-import os
-import sys
+# import os
+# import sys
 
 AUTHOR = u'Petri Community'
 SITENAME = u'Apache Petri'

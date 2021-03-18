@@ -64,7 +64,7 @@ Quoting from [The Apache Way to Sustainable Open Source Success](https://s.apach
 > license that uses the law to protect the software curated here at the Foundation.
 > For us that license is the [Apache License, Version 2](https://www.apache.org/licenses/LICENSE-2.0.html).
 > In addition, we adopt an [inbound licensing policy](https://apache.org/legal/resolved.html)
-> that defines which licenses are allowable on software reused within Apache projects. This policy can be summarized as: 
+> that defines which licenses are allowable on software reused within Apache projects. This policy can be summarized as:
 >
 > * The license must meet the [Open Source Definition (OSD)](https://opensource.org/osd).
 > * The license, as applied in practice, must not impose significant restrictions beyond those imposed by the Apache License 2.0.
@@ -100,7 +100,7 @@ If you are:
   development model; or
 * A company that has an Open Source project with other vendors and wants to
   expand and diversify its community...
-  
+
 And you are:
 
 * Willing to license your project's works under the [Apache License, Version 2](https://www.apache.org/licenses/LICENSE-2.0.html).
