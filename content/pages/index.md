@@ -1,4 +1,5 @@
 Title: <!-- suppressed, logo covers it -->
+Category: Petri
 <!-- Licensed under ALv2 -->
 
 <div class="float-right">
