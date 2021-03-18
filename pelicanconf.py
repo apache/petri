@@ -59,8 +59,9 @@ CATEGORIES_SAVE_AS = ''
 INDEX_SAVE_AS = ''
 TAGS_SAVE_AS = ''
 
-# Disable feeds
-FEED_ALL_ATOM = None
+# Enable ATOM feed and Disable other feeds
+FEED_DOMAIN = SITEURL
+FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
