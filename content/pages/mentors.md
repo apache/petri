@@ -1,12 +1,12 @@
 title: Mentors at Apache Petri
 <!-- Licensed under ALv2 -->
 
-### Introduction
+## Introduction
 
 Mentors at Apache Petri provides insight into the Apache Way and general oversight of the learning process
 for projects within the Apache Petri.
 
-### Current mentors
+## Current mentors
 
 - Daniel Gruno (humbedooh)
 - Daniel Shahaf (danielsh)
