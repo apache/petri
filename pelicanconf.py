@@ -66,14 +66,14 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+# Pelican Plugins
+PLUGIN_PATHS = ['/.theme/plugins', './plugins']
+PLUGINS = ['toc', 'pelican-gfm', 'sitemap']
+
 # TOC Generator
-# PLUGIN_PATHS = ['./theme/plugins']
-# PLUGINS = ['toc']
 TOC_HEADERS = r"h[1-6]"
 
 # Sitemap Generator
-PLUGIN_PATHS = ['/.theme/plugins', './plugins']
-# PLUGINS = ['sitemap']
 SITEMAP = {
     "exclude": ["tag/", "category/"],
     "format": "xml",
