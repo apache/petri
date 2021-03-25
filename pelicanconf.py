@@ -68,7 +68,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Pelican Plugins
-PLUGIN_PATHS = ['/.theme/plugins', './plugins']
+# PLUGIN_PATHS = ['/.theme/plugins', './plugins']
 PLUGINS = ['toc', 'pelican-gfm', 'sitemap']
 
 # TOC Generator
