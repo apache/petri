@@ -4,7 +4,7 @@ We are using [GitHub Flavored Markdown](https://github.github.com/gfm/).
 
 JavaScript frameworks available are:
 
-- [JQuery 3.3.1 Slim](https://code.jquery.com/jquery-3.3.1.slim.js)
+- [JQuery 3.6.0 Slim](https://code.jquery.com/jquery-3.6.0.slim.js)
 - [Popper 1.14.7](https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.js)
 - [Bootstrap 4.3.1](https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.js)
 
@@ -47,3 +47,21 @@ Useful Git tools:
 - [git-gui](https://git-scm.com/docs/git-gui) -- A portable graphical interface to Git
 - [gitg](https://gitlab.gnome.org/GNOME/gitg) -- a graphical user interface for git
 - [GitHub CLI](https://cli.github.com/) -- Take GitHub to the command line. GitHub CLI brings GitHub to your terminal. Free and open source
+
+Test your website:
+
+- [Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/) -- Sharing Debugger lets you preview how your content will look when it's shared to Facebook and debug any issues with your Open Graph tags
+- [Favicon checker](https://realfavicongenerator.net/favicon_checker) -- Is your favicon perfect? Let us give a look. We check more than a dozen settings to make sure it fits all major platforms
+- [Google Rich Results Test](https://search.google.com/test/rich-results) -- Rich results are experiences on Google surfaces, such as Search, that go beyond the standard blue link. Rich results can include carousels, images or other non-textual elements
+- [GTmetrix](https://gtmetrix.com/) -- See how your site performs, reveal why it's slow and discover optimization opportunities
+- [Help Search Engines Understand Your Website](https://www.opengraph.xyz/) -- Preview and Generate Open Graph Meta Tags
+- [Lighthouse](https://developers.google.com/web/tools/lighthouse) -- Lighthouse is an open-source, automated tool for improving the quality of web pages. You can run it against any web page, public or requiring authentication. It has audits for performance, accessibility, progressive web apps, SEO and more
+- [Mobile-Friendly Test](https://search.google.com/test/mobile-friendly) -- Test how easily a visitor can use your page on a mobile device. Just enter a page URL to see how your page scores
+- [Nu HTML Checker](https://validator.w3.org/nu/)
+- [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) -- Make your web pages fast on all devices
+- [Pingdom Website Speed Test](https://tools.pingdom.com/) -- Enter a URL to test the page load time, analyze it, and find bottlenecks
+- [REDbot](https://redbot.org/) -- REDbot is lint for HTTP resources; it tests protocol correctness, cacheability, content negotiation and more
+- [Twitter Cards Validator](https://cards-dev.twitter.com/validator)
+- [W3C Feed Validation Service](https://validator.w3.org/feed/) -- Free service that checks the syntax of Atom or RSS feeds
+- [W3C Markup Validation Service](https://validator.w3.org/)
+- [WebPageTest](https://www.webpagetest.org/) -- Test. Optimize. Repeat
