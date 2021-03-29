@@ -55,8 +55,8 @@ A list of your current mentors.
 ### Machine Readable Status
 
 The status information for a community should also be updated in
-[info.yaml](https://github.com/apache/petri-site/blob/master/info.yaml).
+[info.yaml](https://github.com/apache/petri/blob/master/info.yaml).
 
 ### Petri Website Markdown Source
 
-- [view source](https://github.com/apache/petri-site/blob/master/content/pages/cookbook.md)
+- [view source](https://github.com/apache/petri/blob/master/content/pages/cookbook.md)

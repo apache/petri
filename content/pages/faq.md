@@ -234,4 +234,4 @@ perform any needed changes to make that happen.
 
 ### Petri Website Markdown Source
 
-- [view source](https://github.com/apache/petri-site/blob/master/content/pages/faq.md)
+- [view source](https://github.com/apache/petri/blob/master/content/pages/faq.md)

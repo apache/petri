@@ -19,4 +19,4 @@ for projects within the Apache Petri.
 
 ### Petri Website Markdown Source
 
-- [view source](https://github.com/apache/petri-site/blob/master/content/pages/mentors.md)
+- [view source](https://github.com/apache/petri/blob/master/content/pages/mentors.md)
