@@ -17,9 +17,9 @@ https://www.buildstream.build
 
 ### Mailing Lists
 
-- dev@buildstream.apache.org
-- private@buildstream.apache.org
-- commits@buildstream.apache.org
+- Developer discussions - dev@buildstream.apache.org
+- Private - private@buildstream.apache.org
+- Commit messages - commits@buildstream.apache.org
 
 ### Source Code Repository
 
@@ -33,17 +33,17 @@ https://github.com/apache/buildstream/issues
 
 None
 
-### Releases (not Apache)
+### Releases (not Apache Licensed)
 
 https://buildstream.build/install.html
 
-### Licensing Transitions
+### Apache Licensing Transitions
 
-- SGA provided
-- ICLAs provided
-- No ASF Headers
-- No Apache LICENSE
-- No Apache NOTICE
+- An SGA has been provided
+- ICLAs have been provided
+- ASF Headers have not been applied to the source
+- Source is not yet under the Apache LICENSE
+- Source does not have a proper Apache NOTICE
 
 ### Mentors
 
