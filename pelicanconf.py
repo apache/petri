@@ -39,10 +39,10 @@ SITEURL = 'https://petri.apache.org'
 # Save pages using full directory preservation
 PAGES_PATHS = ['content']
 # PATH_METADATA= '(?P<path_no_ext>.*)\..*'
-PAGE_SAVE_AS= '{path_no_ext}.html'
-# PAGE_URL= '{path_no_ext}.html'
+# PAGE_SAVE_AS= '{path_no_ext}.html'
+PAGE_URL= '{slug}.html'
 SLUGIFY_SOURCE = 'basename'
-# PAGE_SAVE_AS = '{slug}.html'
+PAGE_SAVE_AS = '{slug}.html'
 
 # We want to serve info.yaml and petri.rdf in addition to any images
 STATIC_PATHS = ['.htaccess', 'info.yaml', 'petri.rdf', 'images']
