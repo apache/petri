@@ -74,21 +74,21 @@ Quoting from [The Apache Way to Sustainable Open Source Success](https://s.apach
 The Board makes the ultimate decision, and generally ensures that the project has:
 
 * Demonstrated
-  [vendor neutrality](http://community.apache.org/projectIndependence.html)
+  [vendor neutrality](https://community.apache.org/projectIndependence.html)
   in the
-  [community](http://incubator.apache.org/guides/community.html);
+  [community](https://incubator.apache.org/guides/community.html);
 * Demonstrated understanding of the
-  [Apache Release Policy](http://www.apache.org/legal/release-policy.html)
+  [Apache Release Policy](https://www.apache.org/legal/release-policy.html)
   including [Applying the Apache License](https://infra.apache.org/apply-license.html);
 * Completed
   [Contributor Licence Agreements and Software Grant Agreements](https://www.apache.org/licenses/contributor-agreements.html);
 * Performed a
   [Suitable Name Search](https://incubator.apache.org/guides/names.html);
 * Developed a
-  [Transition Plan](http://incubator.apache.org/guides/transitioning_asf.html)
+  [Transition Plan](https://incubator.apache.org/guides/transitioning_asf.html)
   to move the project's resources to the ASF;
 * Shown how the community will
-  [recognize merit](http://incubator.apache.org/guides/community.html); and
+  [recognize merit](https://incubator.apache.org/guides/community.html); and
 * Shown auditable decision making on the provided mailing list.
 
 ## Is Apache Petri right for you?
