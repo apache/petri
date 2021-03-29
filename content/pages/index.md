@@ -2,7 +2,7 @@ Title: <!-- suppressed, logo covers it -->
 <!-- Licensed under ALv2 -->
 
 <div class="float-right">
-  <p><img src="images/logo.svg" alt="Apache Petri Logo" width="300px" height="135px"></p>
+  <p><img src="images/logo.svg" alt="Apache Petri Logo" width="300" height="135"></p>
 </div>
 
 ## What is Apache Petri?
