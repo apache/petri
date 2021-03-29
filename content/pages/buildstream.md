@@ -53,7 +53,7 @@ https://buildstream.build/install.html
 
 ### Machine Readable Status
 
-- [petri.yaml](https://github.com/apache/petri-site/blob/master/content/info.yaml)
+- [info.yaml](https://github.com/apache/petri-site/blob/master/info.yaml)
 
 ### Petri Website Markdown Source
 
