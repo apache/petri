@@ -1,7 +1,7 @@
 Title: What is Apache Petri?
 <!-- Licensed under ALv2 -->
 
-<div style="left-margin: 2rem;" class="float-right">
+<div style="margin-left: 1rem;" class="float-right">
   <p><img src="images/logo.svg" alt="Apache Petri Logo" width="300" height="135"></p>
 </div>
 
