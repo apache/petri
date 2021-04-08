@@ -25,16 +25,18 @@ from datetime import date
 # import os
 # import sys
 
-AUTHOR = u'Petri Community'
-SITENAME = u'Apache Petri'
-CURRENTYEAR = date.today().year
 
 PATH = 'content'
 
 TIMEZONE = 'UTC'
 
 DEFAULT_LANG = u'en'
+AUTHOR = u'Petri Community'
+SITENAME = u'Apache Petri'
 SITEURL = 'https://petri.apache.org'
+SITELOGO = 'https://petri.apache.org/images/logo.png'
+SITEDESC = u'Assists external project communities interested in becoming an Apache project learn how The ASF works and its views on how to build a healthy community'
+CURRENTYEAR = date.today().year
 
 # Save pages using full directory preservation
 PAGES_PATHS = ['content']
