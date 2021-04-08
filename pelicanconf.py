@@ -40,7 +40,7 @@ SITEURL = 'https://petri.apache.org'
 PAGES_PATHS = ['content']
 # PATH_METADATA= '(?P<path_no_ext>.*)\..*'
 # PAGE_SAVE_AS= '{path_no_ext}.html'
-PAGE_URL= '{slug}.html'
+PAGE_URL = '{slug}.html'
 SLUGIFY_SOURCE = 'basename'
 PAGE_SAVE_AS = '{slug}.html'
 
