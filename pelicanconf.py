@@ -37,6 +37,7 @@ SITEDOMAIN = 'petri.apache.org'
 SITEURL = 'https://petri.apache.org'
 SITELOGO = 'https://petri.apache.org/images/logo.png'
 SITEDESC = u'Assists external project communities interested in becoming an Apache project learn how The ASF works and its views on how to build a healthy community'
+TRADEMARKS = u'Apache, the Apache feather logo, and Petri are trademarks or registered trademarks'
 CURRENTYEAR = date.today().year
 
 # Save pages using full directory preservation
