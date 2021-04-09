@@ -1,3 +1,2 @@
 pelican
 pelican-sitemap
-markdown-extra
