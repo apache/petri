@@ -4,7 +4,7 @@ The Apache Theme included here consists two types of html files.
 
 1. Page templates.
   There should be one template for each page type.
-3. HTML fragments.
+2. HTML fragments.
   There are fragments for different common parts of an html file.
   
 ## Page Templates
