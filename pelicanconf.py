@@ -77,23 +77,6 @@ AUTHOR_FEED_RSS = None
 PLUGIN_PATHS = ['./theme/plugins']
 PLUGINS = ['toc', 'pelican-gfm', 'sitemap']
 
-# Markdown Configuration
-MARKDOWN = {
-    'extension_configs': {
-        'markdown.extensions.extra': {},
-        'markdown.extensions.admonition': {},
-        'markdown.extensions.codehilite': {
-            'css_class': 'highlight'
-        },
-        'smarty' : {
-            'smart_angled_quotes' : 'true'
-        },
-        'markdown.extensions.toc': {
-            'permalink': 'true',
-        },
-    }
-}
-
 # TOC Generator
 TOC_HEADERS = r"h[1-6]"
 
