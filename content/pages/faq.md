@@ -42,7 +42,7 @@ that once a PMC is constructed, any resources not hosted at the Foundation will
 be the new PMC’s first order of business (i.e. a transition plan would be part of
 the presentation to the Board).
 
-## Why does this matter? What is special about The Apache Way? {: #whats-special }
+## Why does this matter? What is special about The Apache Way?
  
 The Apache Way is the ASF’s process of community-led development is the backbone
 of all Apache projects, and emulated by many Open Source foundations. The Apache
@@ -231,7 +231,3 @@ a community is unwilling to wait for graduation, and Petri has
 accepted them, then the Incubator will need to retire the podling.
 Petri will then take responsibility for the podling’s resources, and
 perform any needed changes to make that happen.
-
-### Petri Website Markdown Source
-
-- [view source](https://github.com/apache/petri-site/blob/master/content/pages/faq.md)
