@@ -75,7 +75,24 @@ AUTHOR_FEED_RSS = None
 # Pelican Plugins
 # The provided location. If the buildbot does not have a new plugin then look into requirements.txt
 PLUGIN_PATHS = ['./theme/plugins']
-PLUGINS = ['toc', 'pelican-gfm', 'attr_list', 'sitemap']
+PLUGINS = ['toc', 'pelican-gfm', 'sitemap']
+
+# Markdown Configuration
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.extra': {},
+        'markdown.extensions.admonition': {},
+        'markdown.extensions.codehilite': {
+            'css_class': 'highlight'
+        },
+        'smarty' : {
+            'smart_angled_quotes' : 'true'
+        },
+        'markdown.extensions.toc': {
+            'permalink': 'true',
+        },
+    }
+}
 
 # TOC Generator
 TOC_HEADERS = r"h[1-6]"
