@@ -6,7 +6,7 @@ The Apache Theme included here consists two types of html files.
   There should be one template for each page type.
 2. HTML fragments.
   There are fragments for different common parts of an html file.
-  
+
 ## Page Templates
 
 1. base.html - there is only one page type.
@@ -28,7 +28,7 @@ Each of the above files should be edited as needed for the deployed website.
 
 ## Pelican Variables set in pelicanconf.py
 
-~~~
+~~~python
 SITENAME = u'Apache <pmc>'
 SITEDOMAIN = '<pmc>.apache.org'
 SITEURL = 'https://<pmc>.apache.org'
