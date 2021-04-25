@@ -42,8 +42,8 @@ Please read our [FAQ](/faq) or ask questions on discuss@petri.apache.org
 
 ## Petri Repositories and Issue Tracking
 
-- [Website](https://github.com/apache/petri-site)
-- [Issues](https://github.com/apache/petri-site/issues)
+- [Website](https://github.com/apache/petri)
+- [Issues](https://github.com/apache/petri/issues)
 
 ### Petri Status Files
 
