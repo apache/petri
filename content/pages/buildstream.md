@@ -53,4 +53,4 @@ https://buildstream.build/install.html
 
 ### Machine Readable Status
 
-- [info.yaml](https://github.com/apache/petri-site/blob/master/info.yaml)
+- [info.yaml](https://github.com/apache/petri/blob/master/info.yaml)
