@@ -1,2 +1,3 @@
 pelican
 pelican-sitemap
+beautifulsoup4
