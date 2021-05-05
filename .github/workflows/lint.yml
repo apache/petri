@@ -32,47 +32,18 @@ jobs:
         run: |
           # stop the build if there are Python syntax errors or undefined names
           flake8 . --count --ignore=E201,E501 --show-source --statistics
-  markdownlint:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os:
-          - ubuntu-latest
-        node_version:
-          - 14
-        architecture:
-          - x64
-    name: Markdown Node ${{ matrix.node_version }} - ${{ matrix.architecture }} on ${{ matrix.os }}
-    steps:
-      - uses: actions/checkout@v2
-      - name: Setup node
-        uses: actions/setup-node@v2
-        with:
-          node-version: ${{ matrix.node_version }}
-          architecture: ${{ matrix.architecture }}
-      - run: npm install -g markdownlint-cli@0.27.1
-      - run: markdownlint '**/*.md'
   misspell:
-    name: Check Spelling
+    name: Check spelling all files in commit misspell
     runs-on: ubuntu-latest
     steps:
-      - name: Check Out
+      - name: Check out
         uses: actions/checkout@v2
       - name: Install
-        run: |
-          wget -O - -q https://git.io/misspell | sh -s -- -b .
-      - name: Misspell
-        run: |
-          git ls-files --empty-directory | xargs ./misspell -error
-  trailing-whitespace:
-    name: Trailing whitespace
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: Check for trailing whitespace
-        run: "! git grep -EIn $'[ \t]+$'"
-  yamllint:
-    name: YAML
+        run: wget -O - -q https://git.io/misspell | sh -s -- -b .
+      - name: misspell
+        run: git ls-files --empty-directory | xargs ./misspell -error
+  pre-commit:
+    name: Run pre-commit
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -83,7 +54,12 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install yamllint
-      - name: YAML Lint
-        run: |
-          yamllint --strict .
+          pip install pre-commit
+      - name: Set PY
+        run: echo "PY=$(python -VV | sha256sum | cut -d' ' -f1)" >> $GITHUB_ENV
+      - uses: actions/cache@v1
+        with:
+          path: ~/.cache/pre-commit
+          key: pre-commit|${{ env.PY }}|${{ hashFiles('.pre-commit-config.yaml') }}
+      - name: Run pre-commit
+        run: pre-commit run --all-files

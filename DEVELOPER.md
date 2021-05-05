@@ -13,15 +13,46 @@ CSS frameworks available are:
 - [Bootstrap 4.3.1](https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.css)
 - [GitHub Markdown 3.0.1](https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/3.0.1/github-markdown.css)
 
-Additional testing with GitHub Actions:
+Testing with GitHub Actions:
 
 - [Lint](.github/workflows/lint.yml) -- [GitHub Actions](https://docs.github.com/en/actions) Workflow
 - [Flake8](https://flake8.pycqa.org/en/latest/) - [Python](https://www.python.org/) based tool for style guide enforcement
-- [markdownlint](https://github.com/DavidAnson/markdownlint) -- using [markdownlint-cli](https://github.com/igorshubovych/markdownlint-cli) - [Node.js](https://nodejs.org/) style checker and lint tool for [Markdown](https://daringfireball.net/projects/markdown/) and CommonMark files
 - [misspell](https://github.com/client9/misspell) -- [Golang](https://golang.org/) library to correct commonly misspelled English words quickly
-- [yamllint](https://yamllint.readthedocs.io/en/stable/) -- a linter for [YAML](https://yaml.org/) files
+- [pre-commit](https://pre-commit.com/) -- Python based Git Hooks made easy. Git hook scripts are useful for identifying simple issues before submission to code review. We run our hooks on every commit to automatically point out issues in code such as missing semicolons, trailing whitespace, and debug statements. By pointing these issues out before code review, this allows a code reviewer to focus on the architecture of a change while not wasting time with trivial style nitpicks
 
-For misspell you can pass in `-w` to autocorrect misspelled words. You can also autocorrect some markdownlint
+`pre-commit` can be [installed](https://pre-commit.com/#installation) with `pip`, `curl`, `brew` or `conda`.
+You need to first install `pre-commit` and then install the `pre-commit` hooks with `pre-commit install`.
+Now `pre-commit` will run automatically on git commit!
+
+It's usually a good idea to run the hooks against all the files when adding new hooks (usually `pre-commit` will only run on the changed files during git hooks).
+Use `pre-commit run --all-files` to check all files.
+
+To run a single hook use `pre-commit run --all-files <hook_id>`
+
+To update use `pre-commit autoupdate`
+
+- [Quick start](https://pre-commit.com/#quick-start)
+- [Usage](https://pre-commit.com/#usage)
+- [pre-commit autoupdate](https://pre-commit.com/#pre-commit-autoupdate)
+- [.pre-commit-config.yaml](.pre-commit-config.yaml)
+
+The `pre-commit` GitHub Action runs an array of simple checks as well three more common linters:
+
+- id: identity
+- id: check-hooks-apply
+- id: check-added-large-files
+- id: check-case-conflict
+- id: check-merge-conflict
+- id: check-yaml
+- id: end-of-file-fixer
+- id: fix-byte-order-marker
+- id: mixed-line-ending
+- id: trailing-whitespace
+- id: [codespell](https://github.com/codespell-project/codespell) -- Fix common misspellings in text files. It's designed primarily for checking misspelled words in source code, but it can be used with other files as well
+- id: [markdownlint](https://github.com/DavidAnson/markdownlint) -- using [markdownlint-cli](https://github.com/igorshubovych/markdownlint-cli) - [Node.js](https://nodejs.org/) style checker and lint tool for [Markdown](https://daringfireball.net/projects/markdown/) and CommonMark files
+- id: [yamllint](https://yamllint.readthedocs.io/en/stable/) -- a linter for [YAML](https://yaml.org/) files
+
+For `misspell` you can pass in `-w` to autocorrect misspelled words. You can also autocorrect some `markdownlint`
 errors by using the `--fix` flag.
 
 Developer Tools:
