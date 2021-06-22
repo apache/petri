@@ -1,0 +1,20 @@
+site:
+  name: Apache Petri
+  description: Assists external project communities interested in becoming an Apache project learn how The ASF works and its views on how to build a healthy community
+  domain: petri.apache.org
+  logo: images/logo.png
+  repository: https://github.com/apache/petri/blob/master/content/pages/
+  trademarks: Apache, the Apache feather logo, and Petri are trademarks or registered trademarks
+
+plugins:
+  paths:
+    - theme/plugins
+  use:
+    - toc2
+    - gfm
+
+static:
+  - .htaccess
+  - info.yaml
+  - petri.rdf
+  - images
