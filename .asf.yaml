@@ -10,7 +10,6 @@ notifications:
 
 pelican:
   notify:         commits@petri.apache.org
-  autobuild:      true
   target:         asf-site
   theme:          theme/apache
   whoami:         master
