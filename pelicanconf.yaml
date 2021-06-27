@@ -12,9 +12,3 @@ plugins:
   use:
     - toc2
     - gfm
-
-static:
-  - .htaccess
-  - info.yaml
-  - petri.rdf
-  - images
