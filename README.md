@@ -14,7 +14,7 @@ CI/CD is via a [.asf.yaml file](https://cwiki.apache.org/confluence/display/INFR
 
 - [Template](theme/apache/templates) -- simple html template (inline css)
 - [Images](content/images) -- logo and other images
-- [Pelican Configuration](pelicanconf.py) -- pelican configuration
+- [Pelican Configuration](pelicanconf.yaml) -- pelican configuration
 - [ASF YAML build](.asf.yaml) -- ASF infrastructure instructions
 
 See the [Developer Guide](DEVELOPER.md) for details about GitHub actions, frameworks, and other tooling.
