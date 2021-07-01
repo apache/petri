@@ -5,6 +5,7 @@ site:
   logo: images/logo.png
   repository: https://github.com/apache/petri/blob/master/content/pages/
   trademarks: Apache, the Apache feather logo, and Petri are trademarks or registered trademarks
+  theme: theme/apache
 
 plugins:
   paths:
