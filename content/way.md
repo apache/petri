@@ -1,6 +1,5 @@
-Title: Curated Links about The Apache Way
+Title: An Index to The Apache Way
 
-Here are additional links about the Apache Way.
 
 - [The Apache Way](https://www.apache.org/theapacheway/index.html)
 
