@@ -26,6 +26,8 @@ external community.
 - [Merit](https://www.apache.org/foundation/how-it-works.html#meritocracy)
 - [Success at Apache](https://blogs.apache.org/foundation/category/SuccessAtApache)
 
+Additional references can be found [here](/way)
+
 ## Which communities are currently mentored by Apache Petri?
 
 - [BuildStream](/buildstream)
