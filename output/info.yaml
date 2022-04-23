@@ -43,8 +43,8 @@ cultures:
    sga: yes
    icla: yes
    headers: no
-   license: no
-   notice: no
+   license: yes
+   notice: yes
 
 # notify these followers before making breaking changes
 followers:
