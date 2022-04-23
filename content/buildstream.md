@@ -42,8 +42,8 @@ https://buildstream.build/install.html
 - An SGA has been provided
 - ICLAs have been provided
 - ASF Headers have not been applied to the source
-- Source is not yet under the Apache LICENSE
-- Source does not have a proper Apache NOTICE
+- Source is now under the Apache LICENSE
+- Source has an Apache NOTICE
 
 ### Mentors
 
