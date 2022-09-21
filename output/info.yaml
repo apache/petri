@@ -49,5 +49,5 @@ cultures:
 # notify these followers before making breaking changes
 followers:
  - discuss@petri.apache.org
- - dev@whimisical.apache.org
+ - dev@whimsical.apache.org
  - users@infra.apache.org
