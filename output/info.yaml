@@ -13,8 +13,7 @@ mentors:
  - jerenkrantz
 
 # Current Petri Cultures
-projects:
- - buildstream
+projects: []
 
 # Cultures
 cultures:
