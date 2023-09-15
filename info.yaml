@@ -19,7 +19,8 @@ projects: []
 cultures:
  buildstream:
   start: 2020/04/08
-  status: current
+  end: 2022/09/21
+  status: tlp
   mentors:
    - striker
    - jerenkrantz
@@ -41,7 +42,7 @@ cultures:
   licensing:
    sga: yes
    icla: yes
-   headers: no
+   headers: yes
    license: yes
    notice: yes
 
