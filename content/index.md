@@ -28,7 +28,7 @@ external community.
 
 ## Which communities are currently mentored by Apache Petri?
 
-- [BuildStream](/buildstream)
+None Currently
 
 ## How can our project/community apply for Apache Petri mentorship?
 
