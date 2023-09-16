@@ -31,5 +31,12 @@
     <description>Apache Petri deals with the assessment of, education in, and adoption of the Foundation's policies and procedures for collaborative development and the pros and cons of joining the Foundation.</description>
     <mailing-list rdf:resource="https://lists.apache.org/list.html?discuss@petri.apache.org" />
     <category rdf:resource="http://projects.apache.org/category/education" />
+    <bug-database rdf:resource="https://github.com/apache/petri/issues/" />
+    <repository>
+      <GitRepository>
+        <location rdf:resource="https://github.com/apache/petri/"/>
+        <browse rdf:resource="https://github.com/apache/petri/"/>
+      </GitRepository>
+    </repository>
   </Project>
 </rdf:RDF>
