@@ -2,8 +2,6 @@ name: Build a Pelican Website
 on:
   push:
     branches: [ "dfoulks/pelican-gha" ]
-    paths-ignore:
-      - 'output/**'
   workflow_dispatch:
 env:
   LIBCMARKDIR: /home/runner/work/infrastructure-website/infrastructure-website/cmark-gfm-0.28.3.gfm.12/lib
