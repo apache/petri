@@ -1,7 +1,7 @@
 name: Build a Pelican Website
 on:
   push:
-    branches: [ "dfoulks/pelican_gha" ]
+    branches: [ "dfoulks/pelican-gha" ]
     paths-ignore:
       - 'output/**'
   workflow_dispatch:
