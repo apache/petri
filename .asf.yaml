@@ -14,4 +14,8 @@ pelican:
   theme:          theme/apache
   whoami:         master
 
-staging: false
+staging:
+  whoami: dfoulks/gha-site
+  profile: gha-site
+  autostage: preview/*
+
