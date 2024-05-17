@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: ''
-          ref: 'dfoulks/pelican_gha'
+          ref: 'dfoulks/pelican-gha'
       - name: Install Pelican
         run: pip3 install pelican markdown ghp-import bs4
       # Optionally, if your website uses the gfm plugin uncomment the GFM block
