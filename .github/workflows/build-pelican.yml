@@ -29,7 +29,7 @@ jobs:
       #######################
       - name: Generate website from markdown
         run: /usr/bin/env python3 -m pelican content -o output
-        working-directory: /home/runner/work/petri/petri
+        working-directory: ${{ vars.GITHUB_WORKSPACE }}
       - name: Open a PR against the staging branch
         uses: peter-evans/create-pull-request@v6.0.5
         with:
