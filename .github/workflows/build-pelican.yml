@@ -27,7 +27,6 @@ jobs:
       #######################
       - name: Generate website from markdown
         run: /usr/bin/env python3 -m pelican content -o output
-        working-directory: $GITHUB_WORKSPACE
         env:
           LIBCMARKDIR: $GITHUB_WORKSPACE/cmark-gfm-0.28.3.gfm.12/lib
       - name: Open a PR against the staging branch
