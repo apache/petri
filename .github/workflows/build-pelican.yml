@@ -28,7 +28,7 @@ jobs:
       # END BUILD GFM BLOCK #
       #######################
       - name: Set Working Directory
-        ENV:
+        env:
           R: ${{ vars.GITHUB_REPOSITORY }}
         run: echo "::set-output wd=fragment::${R##*}"
       - name: Generate website from markdown
