@@ -34,7 +34,7 @@ jobs:
         run: echo "::set-output name=fragment::${R##*/}"
       - name: Generate website from markdown
         run: /usr/bin/env python3 -m pelican content -o output
-        working-directory: ${{ vars.GITHUB_WORKSPACE }}/petri
+#        working-directory: ${{ vars.GITHUB_WORKSPACE }}/petri/petri
       - name: Open a PR against the staging branch
         uses: peter-evans/create-pull-request@v6.0.5
         with:
