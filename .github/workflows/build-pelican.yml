@@ -4,7 +4,7 @@ on:
     branches: [ "dfoulks/pelican-gha" ]
   workflow_dispatch:
 env:
-  LIBCMARKDIR: /home/runner/work/infrastructure-website/infrastructure-website/cmark-gfm-0.28.3.gfm.12/lib
+  LIBCMARKDIR: ${{ vars.GITHUB_WORKSPACE }}/cmark-gfm-0.28.3.gfm.12/lib
 jobs:
   build-pelican:
     runs-on: ubuntu-latest
