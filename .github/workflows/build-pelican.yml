@@ -27,9 +27,9 @@ jobs:
       #######################
       - name: Generate website from markdown
         run: /usr/bin/env python3 -m pelican content -o output
-        working-directory: ${{ vars.GITHUB_WORKSPACE }}
+        working-directory: ${{ GITHUB_WORKSPACE }}
         env:
-          LIBCMARKDIR: ${{ vars.GITHUB_WORKSPACE }}/cmark-gfm-0.28.3.gfm.12/lib
+          LIBCMARKDIR: ${{ GITHUB_WORKSPACE }}/cmark-gfm-0.28.3.gfm.12/lib
       - name: Open a PR against the staging branch
         uses: peter-evans/create-pull-request@v6.0.5
         with:
