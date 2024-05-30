@@ -1,16 +1,19 @@
 name: Build a Pelican Website
 on:
- push:
- branches: [ 'master' ]
- workflow_dispatch:
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: 'Pelican source branch'
+        required: false
+        default: dfoulks/pelican-gha
 jobs:
- build-pelican:
- runs-on: ubuntu-latest
- steps:
- - uses: actions/checkout@v4
- with:
- ref: 'master'
- - uses: apache/infrastructure-actions/pelican@main
- with:
- destination: 'asf-site'
- gfm: 'true'
+  build-pelican:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+      - uses: apache/infrastructure-actions/pelican@main
+        with:
+          destination: ${{ github.ref }}-site
+          gfm: true
