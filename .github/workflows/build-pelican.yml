@@ -4,7 +4,7 @@ on:
     inputs:
       branch:
         description: 'Pelican source branch'
-        required: false
+        required: true
         default: dfoulks/pelican-gha
 jobs:
   build-pelican:
