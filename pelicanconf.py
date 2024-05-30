@@ -1,4 +1,5 @@
 
+import datetime
 # Basic information about the site.
 SITENAME = 'Apache Petri'
 SITEDESC = 'Assists external project communities interested in becoming an Apache project learn how The ASF works and its views on how to build a healthy community'
@@ -6,13 +7,14 @@ SITEDOMAIN = 'petri.apache.org'
 SITEURL = 'https://petri.apache.org'
 SITELOGO = 'https://petri.apache.org/images/logo.png'
 SITEREPOSITORY = 'https://github.com/apache/petri/blob/master/content/'
-CURRENTYEAR = 2024
+CURRENTYEAR = datetime.date.today().year
 TRADEMARKS = 'Apache, the Apache feather logo, and Petri are trademarks or registered trademarks'
 TIMEZONE = 'UTC'
 # Theme includes templates and possibly static files
 THEME = 'theme/apache'
 # Specify location of plugins, and which to use
 PLUGIN_PATHS = [ 'theme/plugins',  ]
+# If the website uses any *.ezmd files, include the 'asfreader' plugin
 PLUGINS = [ 'toc2', 'gfm',  ]
 # All content is located at '.' (aka content/ )
 PAGE_PATHS = [ '.' ]
