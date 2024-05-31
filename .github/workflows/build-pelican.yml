@@ -1,0 +1,20 @@
+name: build-pelican
+on:
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: 'Pelican source branch'
+        required: true
+        default: 'dfoulks/pelican-gha'
+  push:
+    branches:
+      - dfoulks/pelican-gha
+jobs:
+  build-pelican:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: apache/infrastructure-actions/pelican@main
+        with:
+          destination: ${{ github.event.ref }}-site
+          gfm: true
