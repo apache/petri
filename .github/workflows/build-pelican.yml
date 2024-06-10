@@ -33,7 +33,12 @@ jobs:
       - name: Branch
         run: |
           echo "Branch: ${{ env.BRANCH_NAME }}"
+          if [ "${{ env.BRANCH_NAME }}" == "${{ github.event.repository.default_branch }}" ]; then
+            echo "OUTPUT_BRANCH=asf-site" >> $GITHUB_ENV
+          else
+            echo "OUTPUT_BRANCH=$${{ env.BRANCH_NAME }}-staging" >> $GITHUB_ENV
+          fi
       - name: Pelican  Build
         uses: apache/infrastructure-actions/pelican@main
         with:
-          destination: ${{ env.BRANCH_NAME }}-site
+          destination: ${{ env.OUTPUT_BRANCH }}
