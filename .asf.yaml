@@ -1,0 +1,17 @@
+github:
+  features:
+    # Enable issue management
+    issues: true
+
+notifications:
+  commits:      commits@petri.apache.org
+  issues:       discuss@petri.apache.org
+  pullrequests: discuss@petri.apache.org
+
+pelican:
+  notify:         commits@petri.apache.org
+  target:         asf-site
+  theme:          theme/apache
+  whoami:         master
+
+staging: false
