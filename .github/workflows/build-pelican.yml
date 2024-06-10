@@ -1,10 +1,11 @@
 name: Build a Pelican Website
 on:
   push:
-    # This prevents the workflow from running automatically on a new branch
-    # When creating a new site branch, please ensure that the push and checkout branches agree
-    # and that the action/pelican destination value is updated accordingly
-    branches: [ 'preview/**' ]
+    branches: 
+      - 'preview/**'
+  pull_request:
+    branches: 
+      - 'preview/**'
   workflow_dispatch:
 
 
@@ -13,6 +14,25 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: apache/infrastructure-actions/pelican@main
         with:
-          destination: ${{ github.event.ref }}-site
+          ref: ${{ github.event.inputs.branch || github.head_ref || github.ref }}
+      - name: Determine branch name
+        id: get_branch
+        run: |
+          if [ "${{ github.event_name }}" == "pull_request" ]; then
+            echo "BRANCH_NAME=${{ github.head_ref }}" >> $GITHUB_ENV
+          elif [ "${{ github.event_name }}" == "push" ]; then
+            echo "BRANCH_NAME=${GITHUB_REF#refs/heads/}" >> $GITHUB_ENV
+          elif [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+            if [ "${{ github.event.inputs.branch }}" != "" ]; then
+              echo "BRANCH_NAME=${{ github.event.inputs.branch }}" >> $GITHUB_ENV
+            else
+              echo "BRANCH_NAME=$(git rev-parse --abbrev-ref HEAD)" >> $GITHUB_ENV
+            fi
+          fi
+      - name: Branch
+        run: echo "Branch: ${{ env.BRANCH_NAME }}"
+      - name: Pelican  Build
+        uses: apache/infrastructure-actions/pelican@main
+        with:
+          destination: ${{ env.BRANCH_NAME }}-site
