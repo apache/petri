@@ -1,14 +1,13 @@
-name: build-pelican
+name: Build a Pelican Website
 on:
-  workflow_dispatch:
-    inputs:
-      branch:
-        description: 'Pelican source branch'
-        required: true
-        default: 'dfoulks/pelican-gha'
   push:
-    branches:
-      - dfoulks/pelican-gha
+    # This prevents the workflow from running automatically on a new branch
+    # When creating a new site branch, please ensure that the push and checkout branches agree
+    # and that the action/pelican destination value is updated accordingly
+    branches: [ 'preview/**' ]
+  workflow_dispatch:
+
+
 jobs:
   build-pelican:
     runs-on: ubuntu-latest
@@ -17,4 +16,3 @@ jobs:
       - uses: apache/infrastructure-actions/pelican@main
         with:
           destination: ${{ github.event.ref }}-site
-          gfm: true
