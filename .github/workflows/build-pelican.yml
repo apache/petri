@@ -31,7 +31,8 @@ jobs:
             fi
           fi
       - name: Branch
-        run: echo "Branch: ${{ env.BRANCH_NAME }}"
+        run: |
+          echo "Branch: ${{ env.BRANCH_NAME }}"
       - name: Pelican  Build
         uses: apache/infrastructure-actions/pelican@main
         with:
