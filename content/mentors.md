@@ -16,3 +16,7 @@ for projects within the Apache Petri.
 - Justin Erenkrantz (jerenkrantz)
 - Ross Gardler (rgardler)
 - Sander Striker (striker)
+
+## How to be a mentor
+
+Ask on discuss@petri.apache.org
