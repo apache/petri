@@ -20,7 +20,7 @@ jobs:
         id: determine_branch
         run: |
           # Get the current branch name
-          BRANCH_NAME=$(git rev-parse --abbrev-ref HEAD)
+          echo "BRANCH_NAME=$(git rev-parse --abbrev-ref HEAD)" >> $GITHUB_ENV
       - name: Branch
         id: determine_output_branch
         run: |
