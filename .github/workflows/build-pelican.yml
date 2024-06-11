@@ -17,20 +17,12 @@ jobs:
         with:
           ref: ${{ github.event.inputs.branch || github.head_ref || github.ref }}
       - name: Determine branch name
-        id: get_branch
+        id: determine_branch
         run: |
-          if [ "${{ github.event_name }}" == "pull_request" ]; then
-            echo "BRANCH_NAME=${{ github.head_ref }}" >> $GITHUB_ENV
-          elif [ "${{ github.event_name }}" == "push" ]; then
-            echo "BRANCH_NAME=${GITHUB_REF#refs/heads/}" >> $GITHUB_ENV
-          elif [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
-            if [ "${{ github.event.inputs.branch }}" != "" ]; then
-              echo "BRANCH_NAME=${{ github.event.inputs.branch }}" >> $GITHUB_ENV
-            else
-              echo "BRANCH_NAME=$(git rev-parse --abbrev-ref HEAD)" >> $GITHUB_ENV
-            fi
-          fi
+          # Get the current branch name
+          BRANCH_NAME=$(git rev-parse --abbrev-ref HEAD)
       - name: Branch
+        id: determine_output_branch
         run: |
           echo "Branch: ${{ env.BRANCH_NAME }}"
           if [ "${{ env.BRANCH_NAME }}" == "${{ github.event.repository.default_branch }}" ]; then
