@@ -3,15 +3,28 @@ github:
     # Enable issue management
     issues: true
 
+  rulesets:
+    - name: "Default Branch Protection"
+      type: branch
+      branches:
+        includes:
+          - "~DEFAULT_BRANCH"
+          - "release/*"
+          - "rel/*"
+        excludes: []
+      bypass_teams:
+        - root
+      restrict_deletion: true
+      restrict_force_push: true
 notifications:
-  commits:      commits@petri.apache.org
-  issues:       discuss@petri.apache.org
+  commits: commits@petri.apache.org
+  issues: discuss@petri.apache.org
   pullrequests: discuss@petri.apache.org
 
 pelican:
-  notify:         commits@petri.apache.org
-  target:         asf-site
-  theme:          theme/apache
-  whoami:         master
+  notify: commits@petri.apache.org
+  target: asf-site
+  theme: theme/apache
+  whoami: master
 
 staging: false
